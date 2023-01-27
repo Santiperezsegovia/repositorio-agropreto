@@ -704,4 +704,7 @@ body#portada #hero {
             padding: 45px 0px;
         }
     }
+    .footercategoria .container{
+        background-color: black;
+    }
 }
