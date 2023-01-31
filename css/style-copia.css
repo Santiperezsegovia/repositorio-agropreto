@@ -71,11 +71,7 @@ header {
     background-image: url(../media/tractor3.png);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: cover;
-
-
-
-
+    background-size: cover
 }
 
 header .logo {
@@ -139,23 +135,22 @@ body#portada #hero {
 }
 
 #categorias {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(121, 121, 121);
     color: rgb(245, 245, 245);
     text-align: center
 }
 
 #categorias .container {
-    padding: 50px 12px;
+    padding: 200px 50px;
     text-align: center;
 }
-
 #categorias {
     margin-top: 0;
     font-size: 1em;
 }
 
 #categorias p {
-    display: none;
+    display:none;
 }
 
 #categorias .carta {
@@ -248,7 +243,7 @@ body#portada #hero {
 }
 
 #marcas {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 #contacto {
@@ -294,7 +289,7 @@ body#portada #hero {
         background-image: linear-gradient (0deg,
                 rgba(0, 0, 0, 5),
                 rgba(0, 0, 0, 5)), url("../media/trigo.jpg");
-        background-size: cover;
+                background-size: cover;
         background-position: center center;
         height: 500px;
         width: 400px;
@@ -334,7 +329,8 @@ body#portada #hero {
     #quienessomos p {
         color: rgb(35, 35, 35);
     }
-
+    
+    }
     #sobrenosotros h2 {
         padding: 40px;
         margin: 100px;
@@ -347,9 +343,7 @@ body#portada #hero {
         justify-content: space-between;
     }
 
-    body#portadacategoria {
-        background-image: url(../media/tractor-g7e13c7631_1920.jpg);
-    }
+    
 
     body#portadaempresa {
         padding: 0;
@@ -368,7 +362,7 @@ body#portada #hero {
         background-color: rgb(226, 226, 43);
         color: rgb(35, 35, 35);
         width: 100%;
-        padding: 100px 0px;
+        padding: 0px;
         background-size: cover;
 
     }
@@ -452,7 +446,7 @@ body#portada #hero {
         background-color: rgb(226, 226, 43);
         color: rgb(0, 0, 0);
         width: 100%;
-        padding: 100px 0px;
+        padding: 0px 0px;
         background-size: cover;
 
     }
@@ -470,7 +464,7 @@ body#portada #hero {
     .box__footer {
         display: flex;
         flex-direction: column;
-        padding: 40px;
+        padding: 50px;
     }
 
     .box__footer .logo img {
@@ -639,7 +633,7 @@ body#portada #hero {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 50px;
-        padding: 45px 0px;
+        padding: 5px 0px;
     }
 
     .pie-pagina .box figure {
@@ -656,13 +650,14 @@ body#portada #hero {
 
     .pie-pagina .grupo-1 .box h2 {
         color: black;
-        margin-bottom: 25px;
+        margin-bottom: 0px;
         font-size: 20px;
     }
 
     .pie-pagina .grupo-1 .box ul {
-        color: black;
-        margin-bottom: 10px;
+        color: rgb(0, 0, 0);
+        margin-bottom: 0px;
+
     }
 
     .pie-pagina .grupo-1 .red-social a {
@@ -701,10 +696,89 @@ body#portada #hero {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-gap: 50px;
-            padding: 45px 0px;
+            padding: 5px 0px;
         }
     }
-    .footercategoria .container{
+
+    .footercategoria .container {
         background-color: black;
     }
-}
+
+    /*CONTACTO*/
+
+    .form-contact {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .form-contact body {
+        background: #a8e6cf;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .form-contact {
+        background: #FFF;
+        width: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+    }
+
+    .form-contact .header {
+        width: 100%;
+        background: #ff165d;
+        overflow: hidden;
+        color: white;
+    }
+
+    .form-contact .header .span {
+        font-size: 100px;
+        display: block;
+        text-align: center;
+        padding: 2.5rem;
+    }
+
+    .form-contact .contact {
+        padding: .8rem;
+        overflow: hidden;
+        color: gray;
+    }
+
+    .form-contact .contact label,
+    .form-contact .contact input,
+    .form-contact .contact textarea {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .form-contact .contact label {
+        font-weight: 700;
+    }
+
+    .form-contact .contact input:not([type='submit']),
+    .form-contact .contact textarea {
+        border: none;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 10px;
+        font-size: 20px;
+        outline: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .form-contact .contact textarea {
+        min-height: 100px;
+    }
+
+    .form-contact input[type='submit'] {
+        padding: 10px;
+        background: #000000;
+        border: none;
+        color: white;
+        font-size: 20px;
+        
+        cursor: pointer;
+    }
