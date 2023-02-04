@@ -366,7 +366,7 @@ body#portada #hero {
         background-color: rgb(226, 226, 43);
         color: rgb(35, 35, 35);
         width: 100%;
-        padding: 100px 0px;
+        padding: 0px;
         background-size: cover;
 
     }
@@ -378,13 +378,13 @@ body#portada #hero {
         justify-content: space-between;
         max-width: 1200px;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 0px;
     }
 
     .box__footer {
         display: flex;
         flex-direction: column;
-        padding: 40px;
+        padding: 0px;
     }
 
     .box__footer .logo img {
@@ -450,7 +450,7 @@ body#portada #hero {
         background-color: rgb(226, 226, 43);
         color: rgb(0, 0, 0);
         width: 100%;
-        padding: 100px 0px;
+        padding: 0px 0px;
         background-size: cover;
 
     }
